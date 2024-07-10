@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./portfolia.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+IT+Moderna:wght@100..400&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="https://cdn.pixabay.com/photo/2019/12/25/09/10/girl-mascot-4718135_1280.png" alt="">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">HOME</a></li>
+                <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="links" href="#skill">SKILLS</a></li>
+                <li class="list-items"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 id="username">I'm Aivin<span id="lname">Vinod Philip</span></h1>
+                <p id="user-details">this is my Official Portfolio website to describes all
+                    <br>
+                    details and work experiance in web development
+                </p>
+                <a id="download" href="">DOWNLOAD CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./WhatsApp_Image_2024-07-03_at_1.44.26_PM-removebg-preview.png"
+                    alt="error">
+                <!-- person -->
+                <img id=" girl" class="group1" src="./WhatsApp_Image_2024-07-03_at_1.44.26_PM__1_-removebg-preview.png"
+                    alt="shape" alt=" person">
+            </div>
+            <!-- about -->
+            <section id="about">
+
+                <div class="section-head">
+                    <h2 class="main-head">About Me</h2>
+                    <span class="sub-head">Introduction
+                    </span>
+                    <div class="about-body">
+                        <div class="about-img">
+                            <img class="img1"
+                                src="data:image/jpeg;base64,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"
+                                alt="error" class="about-content">
+
+                            
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dignissimos a cum hic
+                                    suscipit impedit velit fuga nihil consequuntur, doloremque possimus molestiae minima
+                                    magni assumenda iure ad eveniet tempora veritatis?</p>
+                            
+                            <div class="informations">
+                                <div class="info-box">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Aivin Vinod Philip</span>
+                                </div>
+                                <div class="info-box"></div>
+                                <i class="fa-solid fa-user"></i>
+                                <span>aivinvinod@gmiail.com</span>
+                            </div>
+                            <div class="info-box"></div>
+                            <i class="fa-solid fa-user"></i>
+                            <span>38400930940</span>
+                            </class=>
+
+                            </section>
+                            <!-- skill -->
+                             <section id="skill">
+                                <div  class="section-head">
+                                    <h2 class="main-head">Skills</h2>
+                                    <span class="sub-head">My Skills</span>
+                                    <div class="skill-contents">
+                                        <div class="progress-bars">
+                                            <!--htmlbar-->
+                                            <div class="bars">
+                                                <h3 class="bar-head">HTML</h3>
+                                                <span class="bar-percent">89%</span>
+                                                <div class="base-bar"></div>
+                                                <div class="base-bar html-bar"></div>
+                                            </div>
+
+                                            <div class="bars">
+                                                <h3 class="bar-head">css</h3>
+                                                <span class="bar-percent">80%</span>
+                                                <div class="base-bar"></div>
+                                                <div class="base-bar css-bar"></div>
+                                            </div>
+
+                                            <div class="bars">
+                                                <h3 class="bar-head">js</h3>
+                                                <span class="bar-percent">78%</span>
+                                                <div class="base-bar"></div>
+                                                <div class="base-bar js-bar"></div>
+                                            </div>
+
+                                            <div class="bars">
+                                                <h3 class="bar-head">react</h3>
+                                                <span class="bar-percent">98%</span>
+                                                <div class="base-bar"></div>
+                                                <div class="base-bar react-bar"></div>
+                                            </div>
+
+                                            <div class="skill-img">
+                                                <img class="myskill" src="./image.png" alt="no images">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </section>
+                            <!-- contact -->
+                             <section id="contact">
+                                <div class="section-head">
+                                    <h2 class="main-head">Contact</h2>
+                                    <span class="sub-head">My contacts</span>
+                                </div>
+                                <div class="icon-collection">
+                                    <!--linkidin-->
+                                    <div class="icon">
+                                        <a target="_blank" href=""><i class="fa-brands fa-linkedin-in brands"></i></a>
+                                    </div>
+
+                                      <!--github-->
+                                      <div class="icon">
+                                        <a target="_blank" href=""><i class="fa-brands fa-github brands"></i></a>
+                                        
+                                    </div>
+
+                                      <!--facebook-->
+                                      <div class="icon">
+                                        <a target="_blank" href=""><i class="fa-brands fa-facebook brands"></i></a>
+                                    </div>
+
+                                      <!--insta-->
+                                      <div class="icon">
+                                        <a target="_blank" href=""><i class="fa-brands fa-instagram brands"></i></a>
+                                    </div>
+
+                                      <!--mail-->
+                                      <div class="icon">
+                                        <a target="_blank" href=""><i class="fa-solid fa-envelope-open brands"></i></a>
+                                    </div>
+
+                                    <!--twitter-->
+                                      <div class="icon">
+                                        <a target="_blank" href=""><i class="fa-brands fa-twitter brands"></i></a>
+                                    </div>
+
+
+                                </div>
+                             </section>
+                            <!-- footer -->
+                             <footer>
+                                <p id="copyright">&copy; My portofolia website June 2024,All rights reserved to &reg Aivin Vinod Philip</p>
+                                <div class="icon up-arrow">
+                                    <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+                                </div>
+
+                             </footer>
+                        </div>
+</body>
+
+</html>
